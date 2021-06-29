@@ -1,0 +1,110 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Calibri';
+    text-transform: uppercase;
+    border-style: hidden;
+    border-bottom-style: solid;
+    border-color: lightgray;
+    color: darkcyan;
+    font-size: xxx-large;
+    border-width: 1px;
+    padding: 10px;
+}
+
+#beta {
+    font-size: 15px;
+    font-weight: lighter;
+    color: #85bed0;
+}
+
+#display, #pagination-buttons-div, .profile {
+    margin: auto;
+    width: 300px;
+    height: fit-content;
+}
+
+button {
+    color: white;
+    background-color: darkslategray;
+    font-family: 'Verdana';
+    border-style: none;
+    padding: 10px;
+}
+
+#page-number {
+    font-family: sans-serif;
+    color: darkslategray;
+}
+
+button:hover {
+    background-color: #406363;
+}
+
+#footnote {
+    background-color: #0c1313;
+    height: 80px;
+    margin: -8px;
+    margin-top: 150px;
+    color: gray;
+    font-family: sans-serif;
+    font-weight: lighter;
+    padding-top: 1%;
+}
+
+#footnote a {
+    color: gray;
+}
+
+#footnote a:hover {
+    color: lightgray;
+    text-decoration: underline;
+}
+
+.profile {
+    margin-top: 10px;
+    border-color: lightgray;
+    border-width: 0.1px;
+    border-style: solid;
+    border-radius: 2.5px;
+}
+
+.info-display {
+    color: darkslategray;
+    font-family: sans-serif;
+    height: fit-content;
+    text-align: left;
+}
+
+.profile-photo-display {
+    height: 129px;
+    background-repeat: no-repeat;
+    background-color: #f0f0f0cc;
+    background-position: center;
+}
+
+.title {
+    font-family: 'Verdana';
+    color: darkslategray;
+    font-weight: bold;
+    margin-left: 3px;
+    font-size: 14px;
+}
+
+#pagination-buttons-div {
+    height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#previous-button {
+    float: left;
+    margin-left: 5px;
+}
+
+#next-button {
+    float: right;
+    margin-right: 5px;
+}
